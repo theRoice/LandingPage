@@ -4,6 +4,17 @@ body {
   background: lightgray;
 }
 
+h1{
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Main Container */
 main {
   width: 100%;

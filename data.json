@@ -2,15 +2,18 @@
 "myLinks": [
     {
     "name": "GitHub",
-    "url": "https://github.com/theRoice"
+    "url": "https://github.com/theRoice",
+    "image": "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/github/github-original.svg"
     },
     {
     "name": "CodePen",
-    "url": "https://codepen.io/theRoice"
+    "url": "https://codepen.io/theRoice",
+    "image":"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/codepen/codepen-line.svg"
     },
     {
     "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/eric-l-63848b13b/"
+    "url": "https://www.linkedin.com/in/eric-l-63848b13b/",
+    "image": "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/linkedin/linkedin-original.svg"
     }
     ]
 }

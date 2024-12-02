@@ -11,9 +11,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       const myLinks = document.getElementById('myLinks');
       const fragment = document.createDocumentFragment();
   
-      data.myLinks.forEach(({ url, name }) => {
+      data.myLinks.forEach(({ url, name, image }) => {
         const li = document.createElement('li');
-        li.innerHTML = `<a href="${url}" target="_blank">${name}</a>`;
+        li.style.listStyleType = 'none';
+        li.innerHTML = `
+        <img src="${image}" alt="${name} Icon" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+        <a href="${url}" target="_blank">${name}</a>`;
         fragment.appendChild(li);
       });
   

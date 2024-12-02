@@ -1,7 +1,9 @@
 /* Have fun. This is your site. */
 
 body {
-  background: lightgray;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(45deg, #946e9b, #f7faff);
 }
 
 h1{
@@ -24,4 +26,60 @@ main {
   /* adjust to your design */
   max-width: 40em;
 
+}
+
+#profile-pic {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 30%;
+  border: black solid 2px;
+}
+
+#greetings {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for list links */
+li a {
+  font-size: 1.2em;
+  padding: 10px 15px;
+  background-color: #e0e0e0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-flex; /* Ensures alignment of content */
+  align-items: center; /* Vertically align text and image */
+  justify-content: center; /* Center content horizontally */
+  width: 200px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box; /* Ensures padding fits inside the width/height */
+}
+
+li a:hover {
+  background-color: #946e9b;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+li img {
+  width: 30px;
+  height: 30px;
+  margin-inline: 0;
+  margin-right: 10px;
 }
